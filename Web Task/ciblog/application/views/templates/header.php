@@ -3,7 +3,7 @@
 	<title>ciBlog</title>
 	<link rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/style.css">
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css">
       <script src="http://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
 </head>
 <body>
