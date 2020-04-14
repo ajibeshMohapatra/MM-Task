@@ -20,7 +20,12 @@ class Categories extends cI_Controller{
 			$this->load->view('categories/create', $data);
 			$this->load->view('templates/footer');
 		}else{
-			$this->category_model->create_category();  
+			$this->category_model->create_category(); 
+
+
+		//Set Message
+		$this->session->set_flashdata('category_created', 'Your category has been created');
+
 			redirect('categories');
 		}
 	}
