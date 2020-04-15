@@ -11,7 +11,7 @@ class LocationDetail extends StatelessWidget{
 Widget build(BuildContext context){
  return Scaffold(
       appBar: AppBar(
-      title: Text(location.name , style: Styles.navBarTitle,),
+      title: Text(location.name , style: Styles.navBarTitle,)
       ),
   body: Column(
   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
